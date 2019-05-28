@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="P3App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLI-zM-fdh">
+                                <rect key="frame" x="70" y="694.5" width="54" height="51"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DLI-zM-fdh" secondAttribute="height" multiplier="18:17" id="pBs-HV-BqR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <state key="normal" title="Past">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Past" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vbn-fW-72X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqT-58-HeI">
+                                <rect key="frame" x="275" y="684.5" width="84" height="71"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zqT-58-HeI" secondAttribute="height" multiplier="77:65" id="FmP-E2-bbx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <state key="normal" title="Future">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Future" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSZ-Jp-XQX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw2-FK-gVh">
+                                <rect key="frame" x="119" y="807" width="176" height="51"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <state key="normal" title="Who's Next?">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="whosNext" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Vp-U9-VDa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAMAZ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4X-uk-7Ls">
+                                <rect key="frame" x="20" y="269" width="374" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="45"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DLI-zM-fdh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-110" id="Aci-O2-bMa"/>
+                            <constraint firstItem="Xw2-FK-gVh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="384.5" id="C4R-SR-43p"/>
+                            <constraint firstItem="DLI-zM-fdh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="272" id="Ca2-fE-epq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X4X-uk-7Ls" secondAttribute="trailing" constant="20" placeholder="YES" id="H2O-Xs-fV3"/>
+                            <constraint firstItem="X4X-uk-7Ls" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hi4-VS-1BK"/>
+                            <constraint firstItem="Xw2-FK-gVh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IST-bv-gp1"/>
+                            <constraint firstItem="zqT-58-HeI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="272" id="dvi-Sl-vin"/>
+                            <constraint firstItem="zqT-58-HeI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="110" id="fDg-AE-oT1"/>
+                            <constraint firstItem="X4X-uk-7Ls" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="gF2-7W-GSP"/>
+                            <constraint firstItem="X4X-uk-7Ls" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oUZ-ov-rcM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Prompt" destination="X4X-uk-7Ls" id="tOk-mu-yQb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+</document>
